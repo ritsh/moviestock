@@ -6,7 +6,7 @@ class Films extends CI_Controller
 {
 	
 	function __construct()
-	{
+	{ //parent construct
 		  parent::__construct();
 		  $this->load->helper('url');
      }
